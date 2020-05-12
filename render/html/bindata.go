@@ -3,6 +3,7 @@
 // render/html/aside.tmpl
 // render/html/bold.tmpl
 // render/html/definitions.tmpl
+// render/html/header.tmpl
 // render/html/image.tmpl
 // render/html/inset.tmpl
 // render/html/italic.tmpl
@@ -115,7 +116,7 @@ func renderHtmlAsideTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/aside.tmpl", size: 61, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/aside.tmpl", size: 61, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -135,7 +136,7 @@ func renderHtmlBoldTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/bold.tmpl", size: 39, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/bold.tmpl", size: 39, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -155,7 +156,27 @@ func renderHtmlDefinitionsTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/definitions.tmpl", size: 106, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/definitions.tmpl", size: 106, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
+	a := &asset{bytes: bytes, info: info}
+	return a, nil
+}
+
+var _renderHtmlHeaderTmpl = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\xb2\xc9\xa8\xae\xd6\x0b\x48\x2c\x2a\xc9\x4c\xcc\x51\x50\x72\x49\x2d\x28\xc9\x50\xaa\xad\xb5\xab\xae\xd6\x73\xce\xcf\x2b\x49\xcd\x2b\x51\xa8\x51\x28\x4a\xcd\x4b\x49\x2d\xaa\xad\xb5\xd1\xc7\xae\x98\x0b\x10\x00\x00\xff\xff\x84\x08\xe1\x90\x45\x00\x00\x00")
+
+func renderHtmlHeaderTmplBytes() ([]byte, error) {
+	return bindataRead(
+		_renderHtmlHeaderTmpl,
+		"render/html/header.tmpl",
+	)
+}
+
+func renderHtmlHeaderTmpl() (*asset, error) {
+	bytes, err := renderHtmlHeaderTmplBytes()
+	if err != nil {
+		return nil, err
+	}
+
+	info := bindataFileInfo{name: "render/html/header.tmpl", size: 69, mode: os.FileMode(420), modTime: time.Unix(1589252593, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -175,7 +196,7 @@ func renderHtmlImageTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/image.tmpl", size: 47, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/image.tmpl", size: 47, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -195,7 +216,7 @@ func renderHtmlInsetTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/inset.tmpl", size: 73, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/inset.tmpl", size: 73, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -215,7 +236,7 @@ func renderHtmlItalicTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/italic.tmpl", size: 31, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/italic.tmpl", size: 31, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -235,7 +256,7 @@ func renderHtmlLargerTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/larger.tmpl", size: 59, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/larger.tmpl", size: 59, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -255,7 +276,7 @@ func renderHtmlLinkTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/link.tmpl", size: 48, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/link.tmpl", size: 48, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -275,7 +296,7 @@ func renderHtmlListTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/list.tmpl", size: 131, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/list.tmpl", size: 131, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -295,7 +316,7 @@ func renderHtmlPageTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/page.tmpl", size: 199, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/page.tmpl", size: 199, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -315,7 +336,7 @@ func renderHtmlParagraphTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/paragraph.tmpl", size: 82, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/paragraph.tmpl", size: 82, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -335,7 +356,7 @@ func renderHtmlPreformattedTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/preformatted.tmpl", size: 75, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/preformatted.tmpl", size: 75, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -355,7 +376,7 @@ func renderHtmlReferenceTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/reference.tmpl", size: 62, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/reference.tmpl", size: 62, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -375,7 +396,7 @@ func renderHtmlSectionTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/section.tmpl", size: 317, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/section.tmpl", size: 317, mode: os.FileMode(420), modTime: time.Unix(1589252257, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -395,7 +416,7 @@ func renderHtmlSequenceTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/sequence.tmpl", size: 41, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/sequence.tmpl", size: 41, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -415,7 +436,7 @@ func renderHtmlSmallerTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/smaller.tmpl", size: 58, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/smaller.tmpl", size: 58, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -435,7 +456,7 @@ func renderHtmlStrikeTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/strike.tmpl", size: 73, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/strike.tmpl", size: 73, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -455,7 +476,7 @@ func renderHtmlStringTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/string.tmpl", size: 12, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/string.tmpl", size: 12, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -475,7 +496,7 @@ func renderHtmlSubscriptTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/subscript.tmpl", size: 33, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/subscript.tmpl", size: 33, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -495,7 +516,7 @@ func renderHtmlSuperscriptTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/superscript.tmpl", size: 33, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/superscript.tmpl", size: 33, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -515,7 +536,7 @@ func renderHtmlTableTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/table.tmpl", size: 116, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/table.tmpl", size: 116, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -535,7 +556,7 @@ func renderHtmlTargetTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/target.tmpl", size: 26, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/target.tmpl", size: 26, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -555,7 +576,7 @@ func renderHtmlTocTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/toc.tmpl", size: 265, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/toc.tmpl", size: 265, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -575,7 +596,7 @@ func renderHtmlVerbatimTmpl() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "render/html/verbatim.tmpl", size: 96, mode: os.FileMode(420), modTime: time.Unix(1589116514, 0)}
+	info := bindataFileInfo{name: "render/html/verbatim.tmpl", size: 96, mode: os.FileMode(420), modTime: time.Unix(1589243703, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -635,6 +656,7 @@ var _bindata = map[string]func() (*asset, error){
 	"render/html/aside.tmpl":        renderHtmlAsideTmpl,
 	"render/html/bold.tmpl":         renderHtmlBoldTmpl,
 	"render/html/definitions.tmpl":  renderHtmlDefinitionsTmpl,
+	"render/html/header.tmpl":       renderHtmlHeaderTmpl,
 	"render/html/image.tmpl":        renderHtmlImageTmpl,
 	"render/html/inset.tmpl":        renderHtmlInsetTmpl,
 	"render/html/italic.tmpl":       renderHtmlItalicTmpl,
@@ -704,6 +726,7 @@ var _bintree = &bintree{nil, map[string]*bintree{
 			"aside.tmpl":        &bintree{renderHtmlAsideTmpl, map[string]*bintree{}},
 			"bold.tmpl":         &bintree{renderHtmlBoldTmpl, map[string]*bintree{}},
 			"definitions.tmpl":  &bintree{renderHtmlDefinitionsTmpl, map[string]*bintree{}},
+			"header.tmpl":       &bintree{renderHtmlHeaderTmpl, map[string]*bintree{}},
 			"image.tmpl":        &bintree{renderHtmlImageTmpl, map[string]*bintree{}},
 			"inset.tmpl":        &bintree{renderHtmlInsetTmpl, map[string]*bintree{}},
 			"italic.tmpl":       &bintree{renderHtmlItalicTmpl, map[string]*bintree{}},

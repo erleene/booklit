@@ -41,6 +41,16 @@ func (plugin Plugin) Title(title booklit.Content, tags ...string) {
 	plugin.section.SetTitle(title, plugin.section.InvokeLocation, tags...)
 }
 
+func (plugin Plugin) Header(depth int, content booklit.Content) booklit.Content {
+	return booklit.Styled{
+		Style:   "header",
+		Content: content,
+		Partials: booklit.Partials{
+			"Depth": booklit.String(fmt.Sprintf("%d", depth)),
+		},
+	}
+}
+
 func (plugin Plugin) Aux(content booklit.Content) booklit.Content {
 	return booklit.Aux{
 		Content: content,
